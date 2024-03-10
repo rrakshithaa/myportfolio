@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    height: 100px;
+    width: 100vw;
+    background-color: #52B38F;
+}
+body{
+    background-color: #B4E9F3;
+    width: 100vw;
+    
+}
+.cloud1{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.cloud2{
+    
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+.cloud3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 350px;
+}
+.cloud4{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    right: 400px;
+    top: 300px;
+}
+.parent{
+height: 75vh; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.child{
+    display: block;
+   
+    text-align: center;
+}
+.mountain{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color: blue;
+    width: 60%;
+    border-width: 5px;
+}
+.hr_con{
+    margin: 30px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.img_and_text{
+  width:   60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.intro img{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    
+}
+.myintro{
+    width: 60%;
+    font-size: 15px;
+    font-family: cursive;
+}
+.intro img:hover{
+    height: 180px;
+    width: 180px;
+    transition: all 0.5s;
+}
+.bottom_nav{
+    margin-top: 20px;
+    height: 100px;
+    width: 100vw;
+    background-color: #52B38F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.doc{
+    height: 30px;
+    width:30px ;
+}
+
+/* mobile phones */
+@media (max-width:1000px){
+    .cloud3,.cloud4,.cloud2{
+        display: none;
+    }
+    .parent{
+        height: 50vh;
+    }
+    .mountain{
+        padding-top: 30px;
+    }
+    hr{
+        width: 80%;
+    }
+    .img_and_text{
+        width: 80%;
+    }
+    .myintro{
+        font-size: 15px;
+    }
+    .intro img:hover{
+        height: 150px;
+        width: 150px;
+    
+    }
+    }
